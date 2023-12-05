@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="/public/Wordle.png" width="200px" />
+	<img alt="Logo" src="/public/Wordle.png" width="170px" />
 </h1>
 
 <h3 align="center">
@@ -30,7 +30,7 @@
 Nele, os jogadores têm a tarefa de descobrir uma palavra de cinco letras em um número limitado de tentativas. Incentivando o raciocínio lógico e a expansão do vocabulário na
 língua inglesa
 
-![App Screenshot]([https://github.com/rwbe/WordleNYT/blob/main/public/Home.png])
+![App Screenshot]([https://github.com/rwbe/WordleNYT/blob/main/public/Home.png?raw=true])
 
 ## 🕹️ Tecnologias
 
@@ -44,7 +44,7 @@ Tecnologias que usei para desenvolver essa aplicação
 - [Font Awesome](https://fontawesome.com/) 
 - [Prettier](https://prettier.io/)
 
-## ⚒️ Iniciando
+## ⚒️ Passo a passo
 
 ### Requisitos
 
@@ -78,7 +78,7 @@ Wordle Clone foi hospedado na aplicação Netlify, que você pode acessar [aqui]
 
 ---
 
-🎍 Feito por Ricardo Willian.
+👨‍💻 Feito por Ricardo Willian. 
 
 
 
