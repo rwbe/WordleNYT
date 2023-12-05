@@ -1,0 +1,53 @@
+/* Importações */
+@import '../../pages/Game/variables.module.css';
+
+/* Estilos para a classe .mainContainer */
+.mainContainer {
+    width: calc((size * 5) + (gap * 5));
+    margin: 35px auto;
+}
+
+/* Estilos para a classe .wordleMainContainer */
+.wordleMainContainer {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para a classe .wordleMainContainerLight */
+.wordleMainContainerLight {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para a classe .wordleContainer */
+.wordleContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Para 1920x1080 */
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+  .wordleContainer {
+      max-width: 1280px;
+      padding: 5rem; 
+  }
+}
+
+/* Para 1440x900 */
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  .wordleContainer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;  /* ou outro valor desejado para 1440x900 */
+  }
+}
+

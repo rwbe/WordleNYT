@@ -1,0 +1,87 @@
+
+@font-face {
+  font-family: 'SquireHawaii';
+  src: url('../fonts/SquireHawaii.ttf') format('truetype');
+}
+
+.headerContainerStyle {
+    background: #DADCE008;
+    border-radius: 0;
+    color: #DADCE0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .headerContainerLightStyle {
+    background: #F3F3F3;
+    border-radius: 0;
+    color: #202537;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  /* Estilos do título "Wordle" */
+
+  .listItemStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+  .wordleTextStyle {
+    font-family: 'SquireHawaii';
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .wordleTextStyle:hover {
+    transform: scale(1.1); /* Aumenta a escala ao passar o mouse */
+    color: #3498db; /* Altera a cor ao passar o mouse */
+}
+  
+.ulStyle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1; 
+    justify-content: center; 
+    align-items: center;
+    transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+}
+  
+  .ulStyle > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1; 
+    justify-content: center; 
+}
+  
+  .ulStyle > li > button {
+    background-color: #262b3c00;
+    border: none;
+    justify-content: center; 
+    cursor: pointer;
+}
+  
+  
+ 
+  

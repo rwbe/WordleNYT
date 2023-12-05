@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'KarnakProBook';
+  src: url('../fonts/karnakpro-book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Lobby.css */
+html, body {
+    font-family: 'KarnakProBook';
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Impede a barra de rolagem vertical */
+  }
+  
+  .lobby-container {
+    background-color: #E3E3E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 220vh;
+    margin: 0; /* Garante que não há margens adicionais */
+    flex-direction: column;
+}
+
+  .logo-image {
+    max-width: 100px;
+  }
+  
+  .title-container h1 {
+    color: #000000;
+    font-weight: bold;
+    line-height: 52px;
+    font-size: 50px;
+  }
+  
+  .subtitle-container h2 {
+    font-family: 'KarnakProBook';
+    display: flex;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: -15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .button-container button {
+    font-size: 16px;
+    font-weight: 400;
+	  letter-spacing: 0.8px;
+	  line-height: 28px;
+    height: 48px;
+    width: 180px;
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branca */
+    border: none; /* Remova a borda padrão */
+    border-radius: 24px; /* Adicione bordas arredondadas */
+    cursor: pointer; /* Mude o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Adicione uma transição suave na mudança de cor de fundo */
+  }
+  
+  .button-container button:hover {
+    background-color: #333333; /* Cor de fundo preta um pouco mais escura ao passar o mouse */
+  }
+
+  .info-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333333; /* Cor do ícone de informação */
+    cursor: pointer;
+  }
+
+  .pulsing {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .date-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+  }
+  
+  .date-container svg {
+    margin-right: 5px; /* Ajuste conforme necessário */
+  }
+  
+  .date-container p {
+    margin: 0; /* Remova a margem padrão */
+  }

@@ -1,0 +1,33 @@
+h2 {
+    font-size: 1.8em; /* Ajustei o tamanho da fonte para o título */
+    font-weight: 700; /* Aumentei o peso da fonte para o título */
+    display: flex;
+    align-items: center; /* Centralizei o ícone e o texto horizontalmente */
+}
+
+h3 {
+    font-size: 1.5em; /* Ajustei o tamanho da fonte para os subtítulos */
+    font-weight: 600; /* Aumentei o peso da fonte para os subtítulos */
+    margin-top: 20px; /* Adicionei uma margem superior para separar os subtítulos do conteúdo acima */
+}
+p {
+    font-weight: 500;
+    margin-bottom: 10px; /* Adicionei uma margem inferior para separar os parágrafos */
+}
+
+.container {
+    width: 100%;
+    height: 75%; 
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff; 
+    color: #000000;     
+}
+
+.container > div {
+    text-align: justify;
+    font-weight: 400;
+}

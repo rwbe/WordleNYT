@@ -1,0 +1,117 @@
+/* Class .modalViewContainer */
+.modalViewContainer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; 
+}
+
+/* Class .modalContainer */
+.modalContainer {
+    color: white;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 480px;
+    height: auto;
+    border: 2px solid #ccc; /* Aumentei a largura da borda e alterei a cor para um cinza mais suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adicionei uma sombra para dar profundidade */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: modalContainer_in 0.6s cubic-bezier(0.31, 0, 0.08, 0.99);
+}
+
+
+@keyframes modalContainer_in {
+    0% {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Estilos para a classe .modalContainerInstructions */
+.modalContainerInstructions {
+    composes: modalContainer;
+    justify-content: flex-start; /* Mantenha o alinhamento no início se necessário */
+    align-items: center;
+    max-height: 90vh; /* Aumentei a altura máxima para 90vh */
+    padding: 20px;
+}
+
+.modalContainerInstructions section:last-child {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.closeButton {
+    position: absolute;
+    display: flex;
+    top: 15px;
+    right: 15px;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 70%;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: rgba(169, 169, 169, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalContainer > h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.containesGameCount {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.gameCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+}
+
+.gameCount > h3 {
+    font-size: 30px;
+}
+
+.shareButton {
+    width: 262px;
+    height: 50px;
+    background-color: #6AAA64;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Adicione margem superior para mover o botão para baixo */
+}
+
+.shareButton:hover {
+    background-color: #5e9c5a;
+}

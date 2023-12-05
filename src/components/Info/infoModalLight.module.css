@@ -1,0 +1,141 @@
+/* infoModalLight.module.css */
+
+/* Modal Container */
+.modalViewContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContainer {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1001;
+  max-width: 600px;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Close Button */
+.closeButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1002;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: color 0.3s ease;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  color: #555;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Wrapper */
+.textWrapper {
+  white-space: pre-line;
+}
+
+/* Typography */
+.app-info-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.app-info-description {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* Content */
+.content {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Tech Icons */
+.techIcons {
+  color: #333;
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px; 
+  margin-left: 13px;
+  transition: transform 0.3s ease;
+}
+
+.techIcons div:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+
+/* Social Icons */
+.socialIcons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.socialIcons a {
+  color: #333;
+  font-size: 24px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #555;
+  transform: rotate(360deg);
+}
+
+/* Person Icon */
+.personIcon {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Mail Icon */
+.mailIcon {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}
+

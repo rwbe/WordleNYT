@@ -1,0 +1,45 @@
+@import '../../pages/Game/variables.module.css';
+
+.box{
+    font-size: 2em;
+    font-weight: bold;
+    width: size;
+    height: size;
+    background-color: #E9EBEC;
+    border: solid 2px #E9EBEC;
+    border-radius: 5px;
+    color: #56575E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.correct{
+    composes: box;
+    background-color: #538D4E;
+    border: #538D4E solid 2px;
+}
+
+.present{
+    composes: box;
+    background-color: #B59F3B;
+    border: #B59F3B solid 2px;
+
+}
+
+.absent {
+    composes: box;
+    background-color: #aaa;
+    border: #aaa solid 2px;
+}
+
+.empty {
+    composes: box;
+}
+
+.edit {
+    composes: box;
+}
+
+
+

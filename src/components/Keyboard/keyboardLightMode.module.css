@@ -1,0 +1,67 @@
+.keybase {
+    background-color: #D3D6DA;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: #56575E;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 638px;
+    margin: 0 auto;
+    gap: 9.57px;
+    background: #DADCE04D;
+    padding: 25px 1px;
+    border-radius: 10px;
+}
+
+.key{
+    composes: keybase;
+    width: 44px;
+    height: 51px;
+    font-size: 18px;
+}
+
+.emptyKey {
+    width: 44px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emptyKeyMiddle {
+    composes:emptyKey;
+    width: 25px; 
+}
+.enterKey { 
+    composes: keybase;
+    width: 71.78px;
+    height: 51.05px;
+}
+
+.deleteKey { 
+    composes: keybase;
+    width: 71px;
+    height: 51px;
+}
+
+.present {
+    composes: key;
+}
+
+.absent{
+    composes: key;
+    background-color: #aaa;
+}
+
+.correct{
+    composes: key;
+    background-color: #4caf50;
+}

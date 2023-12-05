@@ -1,0 +1,12 @@
+#root {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Clear Sans', 'SquireHawaii', Arial, Helvetica, sans-serif; 
+}
+
+body {
+  background-color: #121213;
+  font-family: 'Clear Sans', 'SquireHawaii', Arial, Helvetica, sans-serif;
+}

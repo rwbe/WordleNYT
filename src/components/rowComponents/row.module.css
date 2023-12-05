@@ -1,0 +1,8 @@
+@import '../../pages/Game/variables.module.css';
+
+.row {
+    display: flex;
+    gap: calc(gap + 6px);
+    margin-bottom: calc(gap + 6px);
+    text-transform: uppercase;
+}
