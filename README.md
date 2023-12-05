@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="/public/Logo.png" width="200px" />
+	<img alt="Logo" src="/public/Wordle.png" width="200px" />
 </h1>
 
 <h3 align="center">
@@ -9,16 +9,18 @@
 <p align="center">Desafie sua mente com palavras!</p>
 
 <p align="center">
-  <img alt="Repositories" src="https://img.shields.io/badge/rwbe-blue?logo=github">
+  <a href="https://github.com/rwbe">
+    <img alt="Github profile" src="https://img.shields.io/badge/rwbe-blue?logo=github">
+  </a>
   
   <img alt="License type" src="https://img.shields.io/badge/license_-MIT-blue?style=flat">
   
 </p>
 
 <p align="center">
-  <a href="#--about-the-project">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-getting-started">Passo a passo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#--sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-passo-a-passo">Passo a passo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-deploy">Deploy</a>
 </p>
 
@@ -28,7 +30,7 @@
 Nele, os jogadores têm a tarefa de descobrir uma palavra de cinco letras em um número limitado de tentativas. Incentivando o raciocínio lógico e a expansão do vocabulário na
 língua inglesa
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot]([https://github.com/rwbe/WordleNYT/blob/main/public/Home.png])
 
 ## 🕹️ Tecnologias
 
