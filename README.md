@@ -30,7 +30,7 @@
 Nele, os jogadores têm a tarefa de descobrir uma palavra de cinco letras em um número limitado de tentativas. Incentivando o raciocínio lógico e a expansão do vocabulário na
 língua inglesa
 
-![App Screenshot]([https://github.com/rwbe/WordleNYT/blob/main/public/Home.png?raw=true])
+![App Screenshot](https://github.com/rwbe/WordleNYT/blob/main/public/Home.png?raw=true)
 
 ## 🕹️ Tecnologias
 
