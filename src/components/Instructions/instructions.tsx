@@ -1,8 +1,8 @@
 // Importando os estilos específicos de tema
 import styles from './instruction.module.css'
 import stylesLight from './instructionLight.module.css'
-import boxStylesLight from '../box/boxLight.module.css'
-import boxStyles from '../box/box.module.css'
+import boxStylesLight from '../Box/boxLight.module.css'
+import boxStyles from '../Box/box.module.css'
 import { type BoxStatus } from '../types.d'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
